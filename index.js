@@ -1,5 +1,6 @@
-const React == require={('react')}
+const React = require('react')
 const Def = require('../default')
+
 require('dotenv').config()
 
 const express = require('express')

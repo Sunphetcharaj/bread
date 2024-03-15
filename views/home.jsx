@@ -6,14 +6,18 @@ function home () {
         <Def>
             <main>
                 <h1>HOME</h1>
+                <div>
+                    <img src="/images/chickensoup.jpg" alt="Chicken soup" />
+                    <div>
+                        Photo by <a href="AUTHOR_LINK"> Brenda Godinez </a> on <a href="UNSPLASH_LINK"> Unsplash</a>
+                    </div>
+                </div>
+                <a href="/places">
+                   <button className="btn-primary">Places Page</button>
+                </a>
             </main>
         </Def>
     )
 }
-
-<a href="/places">
-  <button className="btn-primary">Places Page</button>
-</a>
-
 
 module.exports = home
