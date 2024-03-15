@@ -1,3 +1,5 @@
+const React == require={('react')}
+const Def = require('../default')
 require('dotenv').config()
 
 const express = require('express')
@@ -17,3 +19,5 @@ app.get('*', (req, res) => {
 })
 
 app.listen(process.env.PORT)
+
+module.exports = index
